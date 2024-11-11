@@ -5,7 +5,18 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 id="myHeading">My content</h1>
+    <div id="feedback-form">
+      <h2 class="header">New template</h2>
+      <div>
+        <form id="templateform">
+          <input type="text" name="name" placeholder="Template name"></input>
+          <textarea name="content" placeholder="textarea">test</textarea>
+          <label for="feedback-notify">Template public ?</label>
+          <input type="checkbox" id="feedback-notify" name="notify">
+          <button type="submit">Save</button>
+        </form>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

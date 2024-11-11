@@ -2,10 +2,11 @@
   "manifest_version": 2,
   "name": "TautoRep",
   "description": "Add template for your tickets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "permissions": [
     "activeTab",
-    "contextMenus"
+    "contextMenus",
+    "menus"
   ],
   "icons": {
     "64": "icons/icon.png"
@@ -30,13 +31,6 @@
       "64": "icons/icon.png"
     },
     "default_popup": "browserAction/index.html",
-    "default_title": "TautoRep"
-  },
-  "page_action": {
-    "default_icon": {
-      "64": "icons/icon.png"
-    },
-    "default_popup": "pageAction/index.html",
     "default_title": "TautoRep"
   },
   "options_ui": {
